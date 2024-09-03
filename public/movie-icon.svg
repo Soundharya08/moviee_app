@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="250" viewBox="0 0 500 250">
+  <!-- Circle with gradient fill -->
+  <circle cx="50%" cy="50%" r="50%" fill="url(#gradient)" />
+
+  <!-- Movie reel symbol 🎬 in the center, larger size -->
+  <text x="50%" y="50%" font-family="Arial" font-size="80" fill="#2ecc71" text-anchor="middle" alignment-baseline="middle">🎬</text>
+
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#27ae60;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2ecc71;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Animated Slogan -->
+  <text x="50%" y="75%" font-family="Arial" font-size="20" fill="#ffffff" text-anchor="middle" alignment-baseline="middle">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+    "Lights, Camera, Action!"
+  </text>
+</svg>

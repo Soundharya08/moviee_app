@@ -1,0 +1,99 @@
+/* src/components/Login.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+/* form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .h2{
+    text-align: center;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+   */
+
+
+
+   body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .login-container {
+    background-image: url('https://img.freepik.com/free-photo/movie-background-collage_23-2149876028.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 150px; /* Adjust padding as needed */
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    border: 2px solid #ccc; /* Add border around the login area */
+  }
+  
+  h2 {
+    text-align: center;
+    font-weight: bold; /* Make heading bold */
+  }
+  
+  label {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    max-width: 100%;
+  }
+  
+  label span {
+    font-weight: bold; /* Make labels bold */
+  }
+  
+  input {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
